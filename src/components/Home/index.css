@@ -1,0 +1,65 @@
+.retry-button {
+  width: 93px;
+  height: 44px;
+  gap: 8px;
+  border-radius: 8px;
+  border-width: 1px;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  background-color: #088c03;
+  color: #ffffff;
+}
+
+.retry-block {
+  width: 350px;
+  height: 156px;
+  gap: 32px;
+}
+
+.failure-container {
+  display: felx;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-class {
+  display: felx;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.home-container {
+  max-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .home-container {
+    min-height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.category-bar {
+  width: 200px;
+  height: 908px;
+  top: 248px;
+  left: 80px;
+  gap: 4px;
+}
+
+.products-container {
+  margin: 20px;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}

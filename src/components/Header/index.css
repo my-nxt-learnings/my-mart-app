@@ -1,0 +1,89 @@
+.navbar {
+  min-width: 576px;
+  height: 146px;
+  padding-top: 16px;
+  padding-right: 80px;
+  padding-bottom: 16px;
+  padding-left: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #d8d8d833;
+}
+
+.logout-container {
+  width: 78px;
+  height: 28px;
+  gap: 4px;
+  display: flex;
+  align-items: center;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.logout-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.logout-text {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  text-align: center;
+}
+
+.home-cart-logout {
+  display: flex;
+  align-items: center;
+  width: 222px;
+  height: 28px;
+  gap: 32px;
+}
+
+.home-link {
+  width: 46px;
+  height: 28px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #333333;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.cart-link {
+  width: 46px;
+  height: 28px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #333333;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.unselected {
+  outline: none;
+  background-color: transparent;
+  color: #333333;
+  border: none;
+}
+
+.selected {
+  color: green;
+  border: none;
+  border-bottom: 2px solid #088c03;
+  outline: none;
+  background-color: transparent;
+}
