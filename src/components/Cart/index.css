@@ -93,6 +93,17 @@
   cursor: pointer;
 }
 
+.total-price-in-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.total-amount {
+  color: black;
+  font-size: 40px;
+}
+
 #cart-head {
   font-family: Inter;
   font-weight: 600;

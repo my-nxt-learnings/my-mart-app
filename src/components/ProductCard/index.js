@@ -50,10 +50,11 @@ class ProductCard extends Component {
     let updatedList
 
     if (productDetails.quantity > 1) {
+      console.log(productDetails.quantity)
       updatedList = cartList.map(each => {
         if (each.id === id) {
           const quantity = each.quantity - 1
-          return [...each, quantity]
+          return {...each, quantity}
         }
         return each
       })

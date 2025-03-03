@@ -44,7 +44,8 @@ class Header extends Component {
   }
 
   render() {
-    const {selectedLink} = this.state
+    const {location} = this.props
+    const selectedLink = location.pathname === '/cart' ? 'cart' : 'home'
     const homeClass =
       selectedLink === linkConstants.home ? 'selected' : 'unselected'
     const cartClass =
@@ -60,13 +61,13 @@ class Header extends Component {
           />
         </Link>
         <div className="home-cart-logout">
-          <button type="button" onClick={this.clickHome} className={homeClass}>
+          <Link to="/" className={homeClass}>
             Home
-          </button>
+          </Link>
 
-          <button type="button" onClick={this.clickCart} className={cartClass}>
+          <Link to="/cart" className={cartClass}>
             Cart
-          </button>
+          </Link>
 
           <button
             type="button"

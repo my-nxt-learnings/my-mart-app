@@ -78,6 +78,7 @@
   background-color: transparent;
   color: #333333;
   border: none;
+  text-decoration: none;
 }
 
 .selected {
@@ -86,4 +87,5 @@
   border-bottom: 2px solid #088c03;
   outline: none;
   background-color: transparent;
+  text-decoration: none;
 }

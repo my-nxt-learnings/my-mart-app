@@ -142,15 +142,16 @@ class Cart extends Component {
                 ))}
               </div>
               <div id="priceandcheckout">
-                <div>
+                <div className="total-price-in-cart">
                   <h1>
                     Total ({' '}
                     <span style={{color: 'red'}}>
                       {this.calculateTotalUniqueProducts()}{' '}
                     </span>{' '}
                     items ):{' '}
-                  </h1>{' '}
-                  <p data-test-id="total-price">
+                  </h1>
+                  <p data-testid="total-price" className="total-amount">
+                    {' '}
                     ₹ {this.calculateTotalPrice().toFixed(2)}{' '}
                   </p>
                 </div>
